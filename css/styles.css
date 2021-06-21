@@ -263,7 +263,7 @@ header .container {
 .post-tags {
     display: flex;
     width: 100%;
-    border-top: 1px solid var(--light-gray);
+    border-bottom: 1px solid var(--light-gray);
     font-size: 0.83rem;
     font-weight: 500;
     line-height: 1em;
@@ -335,6 +335,10 @@ header .container {
     color: var(--dark-gold);
     grid-column-start: 1;
     grid-column-end: 2;
+}
+
+.post-info {
+    margin-bottom: 2rem;
 }
 
 .post-info img {
