@@ -1,0 +1,58 @@
+/* Main > Main content */
+#post {
+    margin-top: -1rem;
+}
+
+#post .post-date {
+    margin-top: 0;
+    font-size: var(--caption-size);
+    font-style: italic;
+}
+
+#post .post-summary {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+#post figure {
+    margin: 1.5rem 0;
+}
+
+#post figure img {
+    width: 100%;
+}
+
+#post figure figcaption {
+    font-size: var(--caption-size);
+    line-height: 1.2em;
+    font-style: italic;
+    color: var(--blue);
+}
+
+#post figure figcaption .photo-credit {
+    font-weight: 700;
+}
+
+#post figure figcaption .photo-credit::before {
+    content: "Photograph: ";
+}
+
+#post figure figcaption .photo-credit::after {
+    content: ".";
+}
+
+#post .post-tags {
+    border-bottom: none;
+    border-top: 1px solid var(--light-gray);
+}
+
+/* Main > Side content */
+.author-img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.post-related-img {
+    width: 100%;
+}

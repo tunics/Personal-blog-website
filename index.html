@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/svg+xml" href="imgs/favicon-light.svg" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -82,7 +83,7 @@
             </section>
 
             <section id="content" class="container">
-                <section id="latest-posts">
+                <section id="latest-posts" class="main-content">
                     <p class="section-tlt">Latest Posts</p>
 
                     <div class="post-info">
@@ -237,11 +238,16 @@
                             </div>
                         </div>
                     </div>
+
+                    <a href="" class="load-more">
+                        <span class="material-icons">add_circle_outline</span
+                        >More posts
+                    </a>
                 </section>
 
-                <section id="blog-info" class="dark-bg">
+                <section id="blog-info" class="side-content dark-bg">
                     <div>
-                        <h3>Blog Info</h3>
+                        <h3 class="section-tlt">Blog Info</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing
                             elit, sed diam nonummy nibh euismod tincidunt ut
@@ -250,7 +256,7 @@
                     </div>
 
                     <div>
-                        <h4>Popular tags</h4>
+                        <h4 class="section-tlt">Popular tags</h4>
                         <nav>
                             <ul>
                                 <li><a href="">Adventure</a></li>
@@ -263,7 +269,7 @@
                     </div>
 
                     <div>
-                        <h4>Subscribe for later updates</h4>
+                        <h4 class="section-tlt">Subscribe for later updates</h4>
                         <form id="subscription">
                             <input
                                 type="email"
